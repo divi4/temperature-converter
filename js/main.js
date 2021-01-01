@@ -12,7 +12,7 @@ document.querySelector("#button").addEventListener("click", function(e)
 
 
 function convert() {
-    const f = document.querySelector("#farenheit").value;
+    const f = document.querySelector("#fahrenheit").value;
     const c = (f - 32) * (5/9);
     document.querySelector("#results").innerHTML = c.toFixed(2);
     updateThermo(c)
