@@ -2,18 +2,41 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Farenheit to Celcius converter</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
-
+		<header class="center">
+			<h1>Farenheit to Celcius converter</h1>
+		</header>
+		<section class="two-cols">
+			<div>
+				<input id="farenheit" type="text" placeholder="Farenheit"></input><!--
+				--><button id="button" type="button" name="button">Convert</button>
+				<p>Result: <span id="results"></span></p>
+			</div><!--
+			--><div class="thermoAndLabel">
+				<div class="labels">
+					<p>50C&deg;&ndash;</p>
+					<p>40C&deg;&ndash;</p>
+					<p>30C&deg;&ndash;</p>
+					<p>20C&deg;&ndash;</p>
+					<p>10C&deg;&ndash;</p>
+					<p>0C&deg;</p>
+				</div>
+				<div class="thermometer">
+					<div class="mercury">
+					</div>
+				</div>
+			</div>
+		</section>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
