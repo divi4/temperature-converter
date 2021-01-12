@@ -72,6 +72,33 @@ button {
     margin-top: 0;
     padding-bottom: 0.5rem;
 }
+@media all and (max-width: 801px) {
+    .two-cols {
+        flex-flow: column wrap;
+    }
+    .thermoAndLabel {
+        padding-right: 2rem;
+    }
+}
+@media all and (max-width: 638px) {
+    .convert-btn {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}
+@media all and (max-width: 602px) {
+    .two-cols {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media all and (max-width: 261px) {
+    .convert-btn {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
 /******************************************
 /* Animations
 /*******************************************/
