@@ -15,6 +15,8 @@ This was built with CSS animations, with the mathematical calculations handled b
 
 * Animation will not reset to zero but alter to the new value from the previous value
 * Clean and refactor code
+* Add temperature unit to the outputted number
+* Add option to convert temperatures the other way around
 
 ## Lessons Learned:
 
